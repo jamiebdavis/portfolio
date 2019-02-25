@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import Container from "./container/container";
+import Spinner from "./components/UI/Spinner/Spinner";
 
 class App extends Component {
   render() {
@@ -9,7 +10,7 @@ class App extends Component {
         <header className="App-header">
           Jamie Davis - Portfolio
           <em>
-            <p>(work in progress)</p>
+            <Spinner />
           </em>
         </header>
 
