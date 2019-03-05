@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./Toolbar.module.css";
 import Logo from "../UI/Logo/Logo";
+import Button from "../UI/Button/Button";
 
 //add transparent toolbar to portfolio
 
@@ -11,7 +12,11 @@ const Toolbar = () => {
     <header className={classes.Toolbar}>
       MENU
       <Logo />
-      Nav Items
+      <nav>
+        <Button>About Me</Button>
+        <Button>Projects</Button>
+        <Button>Contact Me</Button>
+      </nav>
     </header>
   );
 };
