@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./components/Header/Header";
 import Section from "./components/section/Section";
 import Parallax from "./components/UI/Parallax/Parallax";
+import Projects from "./components/Projects/Projects";
 
 /* <!-- navbar -->
 
@@ -15,7 +16,7 @@ import Parallax from "./components/UI/Parallax/Parallax";
 <!-- parallax -->
 
 <!-- contact form -->
-
+npm start
 <!-- footer -->
  */
 
@@ -26,7 +27,7 @@ class App extends Component {
         <Header />
         <Section />
         <Parallax />
-        test
+        <Projects />
       </div>
     );
   }
