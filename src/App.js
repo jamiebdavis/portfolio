@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import Header from "./components/Header/Header";
+import Section from "./components/section/Section";
 
 /* <!-- navbar -->
 
@@ -22,7 +23,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <i className="material-icons">menu</i>
+        <Section />
       </div>
     );
   }
