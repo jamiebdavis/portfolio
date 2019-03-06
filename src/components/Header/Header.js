@@ -12,25 +12,25 @@ const Header = () => {
           </a>
           <ul className="right hide-on-med-and-down">
             <li>
-              <a href="#">About Me</a>
+              <a href="/">About Me</a>
             </li>
             <li>
-              <a href="#">Projects</a>
+              <a href="/">Projects</a>
             </li>
             <li>
-              <a href="#">Contact me</a>
+              <a href="/">Contact me</a>
             </li>
           </ul>
           <ul className="sidenav grey" id="mobile-menu">
             {" "}
             <li>
-              <a href="#">About Me</a>
+              <a href="/">About Me</a>
             </li>
             <li>
-              <a href="#">Projects</a>
+              <a href="/">Projects</a>
             </li>
             <li>
-              <a href="#">Contact me</a>
+              <a href="/">Contact me</a>
             </li>
           </ul>
         </div>

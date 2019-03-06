@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import Header from "./components/Header/Header";
 import Section from "./components/section/Section";
+import Parallax from "./components/UI/Parallax/Parallax";
 
 /* <!-- navbar -->
 
@@ -24,6 +25,8 @@ class App extends Component {
       <div className="App">
         <Header />
         <Section />
+        <Parallax />
+        test
       </div>
     );
   }
