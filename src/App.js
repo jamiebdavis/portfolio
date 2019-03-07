@@ -4,6 +4,8 @@ import Header from "./components/Header/Header";
 import Section from "./components/section/Section";
 import Parallax from "./components/UI/Parallax/Parallax";
 import Projects from "./components/Projects/Projects";
+import Tabs from "../src/components/UI/Tabs/Tabs";
+import Form from "./components/Form/Form";
 
 /* <!-- navbar -->
 
@@ -27,6 +29,8 @@ class App extends Component {
         <Header />
         <Section />
         <Parallax />
+        <Tabs />
+        <Form />
         <Projects />
       </div>
     );
