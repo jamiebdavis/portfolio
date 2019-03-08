@@ -1,37 +1,24 @@
 import React, { Component } from "react";
 import "./App.css";
-import Header from "./components/Header/Header";
-import Section from "./components/section/Section";
+import AboutMe from "./components/AboutMe/AboutMe";
 import Parallax from "./components/UI/Parallax/Parallax";
-import Projects from "./components/Projects/Projects";
+//import Projects from "./components/Projects/Projects";
 import Tabs from "../src/components/UI/Tabs/Tabs";
 import Form from "./components/Form/Form";
-
-/* <!-- navbar -->
-
-<!-- photo / grid -->
-
-<!-- parallax -->
-
-<!-- services / tabs -->
-
-<!-- parallax -->
-
-<!-- contact form -->
-npm start
-<!-- footer -->
- */
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Header />
-        <Section />
+        <AboutMe />
         <Parallax />
         <Tabs />
         <Form />
-        <Projects />
+        {/* <Projects /> Removed this section - Might use at a later date*/}
+        <Footer />
       </div>
     );
   }
