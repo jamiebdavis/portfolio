@@ -6,7 +6,6 @@ const Header = () => {
     <header className={classes.Header}>
       <nav className="nav-wrapper transparent">
         <div className="container">
-          <a className="brand-logo center">Jamie Davis - Portfoliio</a>
           <a className="sidenav-trigger" data-target="mobile-menu">
             <i className="material-icons">menu</i>
           </a>

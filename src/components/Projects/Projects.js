@@ -2,25 +2,22 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div className="container">
-      <h3>Project One</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Laoreet suspendisse
-        interdum consectetur libero id.
-      </p>
-      <h3>Project Two</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Laoreet suspendisse
-        interdum consectetur libero id.
-      </p>
-      <h3>Project Three</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Laoreet suspendisse
-        interdum consectetur libero id.
-      </p>
+    <div class="carousel">
+      <a class="carousel-item" href="#one!">
+        <img src="https://lorempixel.com/250/250/nature/1" />>
+      </a>
+      <a class="carousel-item" href="#two!">
+        <img src="https://lorempixel.com/250/250/nature/2" />>
+      </a>
+      <a class="carousel-item" href="#three!">
+        <img src="https://lorempixel.com/250/250/nature/3" />>
+      </a>
+      <a class="carousel-item" href="#four!">
+        <img src="https://lorempixel.com/250/250/nature/4" />>
+      </a>
+      <a class="carousel-item" href="#five!">
+        <img src="https://lorempixel.com/250/250/nature/5" />>
+      </a>
     </div>
   );
 };

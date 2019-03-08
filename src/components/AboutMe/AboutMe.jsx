@@ -1,4 +1,5 @@
 import React from "react";
+import image from "../../images/Linked in profile pic (1).jpg";
 
 //this section will be able me or projects
 
@@ -12,7 +13,7 @@ const Section = () => {
       <div className="row">
         <div className="col s12 l4">
           <img
-            src="http://lorempixel.com/400/200/"
+            src={image}
             alt="potrait"
             className="responsive-img materialboxed"
           />
@@ -20,14 +21,12 @@ const Section = () => {
         <div className="col s12 l6 offset-l1">
           <h2 className="black-text">About Me</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Laoreet suspendisse interdum consectetur libero id. Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Laoreet
-            suspendisse interdum consectetur libero id.
+            I recently graduated from Manchester Codes a coding course that
+            covers full-stack software development (both front-end and
+            back-end). The course sparked a passion for coding and since
+            graduating I have continued to develop my coding skills in my
+            current role and in my spare time. I would now like to build on
+            these foundations through a career in software development
           </p>
         </div>
       </div>

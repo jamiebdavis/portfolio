@@ -5,17 +5,14 @@ const Form = () => {
     <section className="section container scrollspy" id="contact">
       <div className="row">
         <div className="col s12 l5">
-          <h2>Get In Touch</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Laoreet
-            suspendisse interdum consectetur libero id.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Laoreet
-            suspendisse interdum consectetur libero id.
-          </p>
+          <h2>GET IN TOUCH WITH ME</h2>
+          <ul>
+            <li>Mobile: 07540 577813</li>
+            <li>Email: jamiebarrydavis@gmail.com</li>
+            <li>Github: github.com/jamiebdavis</li>
+            <li>Twitter: @jd_codes</li>
+            <li>Instagram: @jamied_nyc</li>
+          </ul>
         </div>
         <div className="col s12 l5 offset-l2">
           <form>
