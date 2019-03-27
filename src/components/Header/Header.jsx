@@ -1,5 +1,7 @@
 import React from "react";
 import classes from "./Header.module.css";
+import Banner from "../Banner/Banner";
+import AboutMe from "../AboutMe/AboutMe";
 
 const Header = () => {
   return (
@@ -62,6 +64,8 @@ const Header = () => {
           </ul>
         </div>
       </nav>
+      <Banner />
+      <AboutMe />
     </header>
   );
 };
