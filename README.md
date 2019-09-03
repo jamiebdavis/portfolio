@@ -1,6 +1,5 @@
 Jamie Davis
-Web Developer Portfolio
+Software Dev Portfolio
 
 Work in process.
 
-Made using Create React App
