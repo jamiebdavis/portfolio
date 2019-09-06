@@ -1,0 +1,25 @@
+body {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.start {
+    display: block;
+    text-align: center;
+    align-items: center;
+    width: 100vh;
+    height: 100vh;
+}
+
+h1, h2 {
+}
+
+#photo {
+    height: 200px;
+    width: 187px;
+    transform: rotate(10deg);
+
+}
+
+ul {
+    display: inline;
+}
