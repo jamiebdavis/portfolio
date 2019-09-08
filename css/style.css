@@ -1,25 +1,137 @@
+body, ul, li, h1, h2, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
 body {
-    font-family: 'Permanent Marker', cursive;
+    
 }
 
-.start {
-    display: block;
+.main {
+    max-width: 100%;
+    width: 1200px;
+    /* margin: 80px auto; */
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgba(116, 116, 116, 0.637);
+    padding: 20px;
     text-align: center;
-    align-items: center;
-    width: 100vh;
-    height: 100vh;
+    position: static;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
 }
 
-h1, h2 {
+header h3 {
+    color: white;
+    border: 8px solid white;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 10px;
 }
 
-#photo {
+nav {
+    background-color: #f4f4f4;
+    padding: 20px;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: auto 0;
+}
+
+nav li {
+    display: inline-block;
+    width: 25%;
+}
+
+.burger-menu {
+    color: greenyellow;
+}
+
+nav li a {
+    text-decoration: none;
+    color: hotpink;
+}
+
+/* Introduction */
+
+.intro {
+    text-align: center;
+}
+
+.intro h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 54px;
+    color: tomato;
+    padding-bottom: 50px;
+}
+
+.intro img {
     height: 200px;
     width: 187px;
     transform: rotate(10deg);
-
+    text-align: center;
 }
 
-ul {
-    display: inline;
+.intro h2 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 44px;
+    color: aqua;
+}
+
+/* About Me */
+
+.about h2 {
+    font-family: 'Permanent Marker', cursive;
+    color: blue;
+    font-size: 48px;
+}
+
+.about p {
+    line-height: 2em;
+    color: #4b4b4b;
+}
+
+/* Projects */
+
+.projects h2 {
+    font-family: 'Permanent Marker', cursive;
+    color: blue;
+    font-size: 48px;
+}
+
+.projects p {
+    line-height: 2em;
+    color: #4b4b4b;
+}
+
+/* Contact Me */
+
+.contact h2 {
+    font-family: 'Permanent Marker', cursive;
+    color: blue;
+    font-size: 48px;
+}
+
+.contact p {
+    line-height: 2em;
+    color: #4b4b4b;
+}
+
+/* Footer */
+
+footer {
+    background: #4b4b4b;
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
